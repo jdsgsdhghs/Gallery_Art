@@ -34,7 +34,7 @@ INSERT INTO artworks (title, year, artist_name, width, height, warehouse_id) VAL
 ('Sunflowers', 1888, 'Vincent van Gogh', 92.1, 73, 1),
 ('Starry Night', 1889, 'Vincent van Gogh', 73.7, 92.1, 1),
 ('Water Lilies', 1916, 'Claude Monet', 200, 180, 2),
-('The Persistence of Memory', 1931, 'Salvador Dalí', 24, 33, 2),
+('Guernica', 1937, 'Pablo Picasso', 349, 776, 3),
 ('Guernica', 1937, 'Pablo Picasso', 349, 776, 3),
 ('The Scream', 1893, 'Edvard Munch', 91, 73.5, NULL),
 ('Girl with a Pearl Earring', 1665, 'Johannes Vermeer', 44.5, 39, NULL);
