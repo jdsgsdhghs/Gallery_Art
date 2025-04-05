@@ -42,7 +42,7 @@ class Artwork {
         
         $stmt = $this->conn->prepare($query);
 
-        // Sanitize inputs
+        
         $this->title = htmlspecialchars(strip_tags($this->title));
         $this->year = htmlspecialchars(strip_tags($this->year));
         $this->artist_name = htmlspecialchars(strip_tags($this->artist_name));
@@ -50,7 +50,7 @@ class Artwork {
         $this->height = htmlspecialchars(strip_tags($this->height));
         $this->warehouse_id = $this->warehouse_id ? htmlspecialchars(strip_tags($this->warehouse_id)) : null;
 
-        // Bind values
+        
         $stmt->bindParam(":title", $this->title);
         $stmt->bindParam(":year", $this->year);
         $stmt->bindParam(":artist_name", $this->artist_name);
