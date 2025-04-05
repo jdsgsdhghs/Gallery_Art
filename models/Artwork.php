@@ -103,7 +103,7 @@ class Artwork {
         
         $stmt = $this->conn->prepare($query);
 
-        // Sanitize inputs
+        
         $this->id = htmlspecialchars(strip_tags($this->id));
         $this->title = htmlspecialchars(strip_tags($this->title));
         $this->year = htmlspecialchars(strip_tags($this->year));
@@ -112,7 +112,7 @@ class Artwork {
         $this->height = htmlspecialchars(strip_tags($this->height));
         $this->warehouse_id = $this->warehouse_id ? htmlspecialchars(strip_tags($this->warehouse_id)) : null;
 
-        // Bind values
+        
         $stmt->bindParam(":id", $this->id);
         $stmt->bindParam(":title", $this->title);
         $stmt->bindParam(":year", $this->year);
@@ -121,7 +121,7 @@ class Artwork {
         $stmt->bindParam(":height", $this->height);
         $stmt->bindParam(":warehouse_id", $this->warehouse_id);
 
-        // Execute query
+        
         if($stmt->execute()) {
             return true;
         }

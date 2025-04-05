@@ -38,11 +38,11 @@ class Warehouse {
         
         $stmt = $this->conn->prepare($query);
 
-        // Sanitize inputs
+        
         $this->name = htmlspecialchars(strip_tags($this->name));
         $this->address = htmlspecialchars(strip_tags($this->address));
 
-        // Bind values
+        
         $stmt->bindParam(":name", $this->name);
         $stmt->bindParam(":address", $this->address);
 
@@ -84,12 +84,12 @@ class Warehouse {
         
         $stmt = $this->conn->prepare($query);
 
-        // Sanitize inputs
+        
         $this->id = htmlspecialchars(strip_tags($this->id));
         $this->name = htmlspecialchars(strip_tags($this->name));
         $this->address = htmlspecialchars(strip_tags($this->address));
 
-        // Bind values
+        
         $stmt->bindParam(":id", $this->id);
         $stmt->bindParam(":name", $this->name);
         $stmt->bindParam(":address", $this->address);
