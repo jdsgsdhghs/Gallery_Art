@@ -6,7 +6,7 @@ class Database {
     private $password = "";
     private $conn;
 
-  // Connection à la base de données
+  // Connection à la base de données galerie_oselo
     public function getConnection() {
         $this->conn = null;
         try {
