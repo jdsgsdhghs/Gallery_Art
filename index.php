@@ -36,7 +36,7 @@ $warehouse = new Warehouse($db);
                     $artwork_count = $stmt->rowCount();
                     echo "<p>Total artworks: <strong>{$artwork_count}</strong></p>";
                     ?>
-                    <a href="views/artworks/index.php" class="btn btn-primary">Manage ARTWORKS</a>
+                    <a href="views/artworks/index.php" class="btn btn-primary">Manage Artworks</a>
                 </div>
             </div>
         </div>
