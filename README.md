@@ -42,3 +42,6 @@ https://getbootstrap.com/docs/5.3/content/tables/
 
 Tutoriels de gestion des erreurs (YouTube) :
 Nous avons consulté plusieurs tutoriels disponibles sur YouTube afin de résoudre des problèmes liés aux erreurs courantes en PHP et MySQL (connexion, affichage,).
+
+
+lien du figma : https://www.figma.com/design/JFbKwnY38rov6Niycjx3dl/Projet-oselo?node-id=2001-161&t=UmwxbpEPyxbRPL7O-1
