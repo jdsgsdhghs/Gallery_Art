@@ -1,8 +1,44 @@
-pour lancer le projet  assurez vous de deplacez le dossier dans ledossier htdocs quise trouve dans XAMP ou dans le dossier www qui trouve dans WAMP si vous utilisez WAMP une foie cela est faite ouvrez le dossier dans un editeur de texte comme vscode ou sublime texte dans le dossier docs vous aavez le  code sql rendez vous dans le site phpmyadmin pour créer la base de données assurer que le nom de votre base de données soit conforme au mien une foie créer votre base il suffit juste de copier le code sql dans la partie SQL et exécuter le code si tout est bien exécuter rendez vous dans un navigateur
-Tapper dans la bare de recherche localhost/le nom du projet.
+Instructions pour le Lancement du Projet
+Pour exécuter correctement le projet en local, veuillez suivre les étapes ci-dessous :
 
-lien de site visiter pour les recherche 
+1. Placement du dossier du projet
+Déplacez le dossier du projet dans l’un des répertoires suivants :
+
+Si vous utilisez XAMPP : placez-le dans le dossier htdocs (généralement situé dans C:\xampp\htdocs)
+
+Si vous utilisez WAMP : placez-le dans le dossier www (généralement dans C:\wamp64\www)
+
+2. Ouverture dans un éditeur de code
+Ouvrez le dossier du projet avec un éditeur de code tel que :
+
+Visual Studio Code
+
+Sublime Text
+
+3. Configuration de la base de données
+Dans le dossier /docs, vous trouverez un fichier contenant le code SQL nécessaire à la création de la base de données.
+
+Rendez-vous sur le site phpMyAdmin via http://localhost/phpmyadmin
+
+Créez une nouvelle base de données en veillant à bien respecter le nom mentionné dans le code (pour éviter toute erreur de connexion).
+
+Dans l’onglet SQL, collez le code SQL fourni, puis cliquez sur Exécuter.
+
+4. Lancement du projet dans le navigateur
+Une fois la base de données créée et les tables importées, ouvrez votre navigateur web.
+
+Tapez l’adresse suivante dans la barre de recherche :
+Copier
+Modifier
+http://localhost/nom_du_projet
+Remplacez nom_du_projet par le nom exact du dossier que vous avez déplacé dans htdocs ou www.
+
+Ressources utiles utilisées pour le projet
+Formulaires Bootstrap 5.3 :
 https://getbootstrap.com/docs/5.3/forms/form-control/
+
+Tables Bootstrap 5.3 :
 https://getbootstrap.com/docs/5.3/content/tables/
 
-des tutoriel pour la gestion des erreur sur youtude
+Tutoriels de gestion des erreurs (YouTube) :
+Nous avons consulté plusieurs tutoriels disponibles sur YouTube afin de résoudre des problèmes liés aux erreurs courantes en PHP et MySQL (connexion, affichage,).
